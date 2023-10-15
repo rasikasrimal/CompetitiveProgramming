@@ -1,14 +1,5 @@
-import sys
-input = sys.stdin.readline
+n = int(input())
 
-def solve():
-    # Write your solution code here
-    pass
+result = 2**n % (10**9 + 7)
 
-def main():
-    t = int(input().strip())
-    for _ in range(t):
-        solve()
-
-if __name__ == '__main__':
-    main()
+print(result)
