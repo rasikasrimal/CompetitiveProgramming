@@ -1,9 +1,8 @@
 #include <iostream>
 #include <vector>
 
-// Function to calculate the number of divisors
 int countDivisors(int num) {
-    int divisors = 1; // Initialize with 1 to include num itself
+    int divisors = 1;
 
     for (int i = 2; i * i <= num; ++i) {
         int exponent = 0;
@@ -15,7 +14,6 @@ int countDivisors(int num) {
     }
 
     if (num > 1) {
-        // If there's a prime factor remaining
         divisors *= 2;
     }
 
