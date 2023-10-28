@@ -1,16 +1,22 @@
-n = int(input(""))
+import math
+
+def count_divisors(num):
+    divisors = 1
+    for i in range(2, int(math.sqrt(num)) + 1):
+        exponent = 0
+        while num % i == 0:
+            num //= i
+            exponent += 1
+        divisors *= (exponent + 1)
+    if num > 1:
+        divisors *= 2
+    return divisors
+
+n = int(input())
 numbers = []
-divisors = []
+for _ in range(n):
+    num = int(input())
+    divisors = count_divisors(num)
+    numbers.append(divisors)
 
-for i in range(n):
-    num = int(input(""))
-    numbers.append(num)
-
-for i in numbers:
-    count = 0
-    for j in range(1, i+1):
-        if i % j == 0:
-            count += 1
-    divisors.append(count)
-
-print(*divisors, sep="\n")
+print(*numbers, sep="\n")
