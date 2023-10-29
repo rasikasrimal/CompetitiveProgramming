@@ -1,14 +1,8 @@
-n = input("")
-n = n.split()
-
-for i in range(0,len(n)):
-    for j in range(i+1,len(n)):
-        if n[i] == n[j]:
-            print("True")
-            break
-    else:
-        continue
-    break
-else:
-    print("False")
-
+class Solution(object):
+    def containsDuplicate(self, nums):
+        hset = set()
+        for idx in nums:
+            if idx in hset:
+                return True
+            else:
+                hset.add(idx)
