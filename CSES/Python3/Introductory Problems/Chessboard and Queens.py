@@ -1,1 +1,1 @@
-too hard: https://cses.fi/problemset/task/1624
+# too hard: https://cses.fi/problemset/task/1624
