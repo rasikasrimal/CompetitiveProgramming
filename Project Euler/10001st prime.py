@@ -1,6 +1,6 @@
 prime_numbers = []
 
-i = 2  # Start with the first prime number, which is 2
+i = 2
 
 while len(prime_numbers) < 10001:
     is_prime = True
