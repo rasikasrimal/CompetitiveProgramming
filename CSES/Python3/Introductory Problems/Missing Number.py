@@ -1,0 +1,6 @@
+n = int(input())
+numbers = list(map(int, input().split()))
+expected_sum = n/2 * (n + 1 )
+actual_sum = sum(numbers)
+missing_number = int(expected_sum - actual_sum)
+print(missing_number)
