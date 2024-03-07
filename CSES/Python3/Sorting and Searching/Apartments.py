@@ -8,11 +8,20 @@ count = 0
 user_size = list(map(int, input("").split(" ")))
 apartment_size = list(map(int, input("").split(" ")))
 
-for i in range(m):
-    for j in range(n):
-        if apartment_size[i] != -1 and user_size[j] - k <= apartment_size[i] <= user_size[j] + k:
-            count += 1
-            apartment_size[i] = -1
-            break
+user_size.sort()
+apartment_size.sort()
+
+user_index = 0
+apartment_index = 0
+
+while user_index < n and apartment_index < m:
+    if user_size[user_index] - k <= apartment_size[apartment_index] <= user_size[user_index] + k:
+        count += 1
+        user_index += 1
+        apartment_index += 1
+    elif user_size[user_index] - k > apartment_size[apartment_index]:
+        apartment_index += 1
+    else:
+        user_index += 1
 
 print(count)
