@@ -5,6 +5,4 @@ Codeforces: [Problems from Codeforces contests](https://codeforces.com/problemse
 Timus: [Timus Problem Set](https://acm.timus.ru/problemset.aspx)<br>
 Project Euler: [Problem Set](https://projecteuler.net/)
 
-Feel free to explore the individual folders to access the code and problem statements. I hope you find these solutions helpful for learning and inspiration. If you have any questions, suggestions, or improvements to the solutions, please don't hesitate to open issues or submit pull requests. Collaboration and feedback are always welcome!
-
 Happy coding!
