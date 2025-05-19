@@ -21,6 +21,7 @@ sum2 = sum(numbers)
 
 missingNumber = sum1 - sum2
 print(missingNumber)
+```
 
 
 
@@ -56,3 +57,4 @@ def longest_consecutive_repeat(sequence: str) -> int:
 dna_sequence = input("Enter DNA Sequence: ").strip().upper()
 result = longest_consecutive_repeat(dna_sequence)
 print(result)
+```
