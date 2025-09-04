@@ -10,7 +10,8 @@ Given a set of 20 points arranged in a cross, the challenge is to determine how 
 
 The points are as follows:
 
-![Puzzle Image](https://github.com/rasikasrimal/CompetitiveProgramming/raw/main/FunMath/Screenshot%202024-05-24%20095950.png)
+<img width="1396" height="858" alt="image" src="https://github.com/user-attachments/assets/a0dbab70-0f15-4031-967f-e7037c1b1c67" />
+
 
 https://youtu.be/61PHoroHhMQ
 

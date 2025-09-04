@@ -1,7 +1,16 @@
-LeetCode: [Problems from LeetCode](https://leetcode.com/studyplan/programming-skills/)<br>
-CSES: [CSES problem set](https://cses.fi/problemset/list/) <br>
-Codeforces: [Problems from Codeforces contests](https://codeforces.com/problemset)<br>
-Timus: [Timus Problem Set](https://acm.timus.ru/problemset.aspx)<br>
-Project Euler: [Problem Set](https://projecteuler.net/)
+# Competitive Programming
 
-Happy coding!!
+This repository contains solutions and notes for various competitive programming platforms.
+
+## Directory Overview
+
+- [CSES](CSES/) – Solutions to the CSES Problem Set.
+- [Codeforces](Codeforces/) – Problems from Codeforces contests.
+- [Leetcode](Leetcode/) – Selected LeetCode challenges.
+- [HackerRank](HackerRank/) – HackerRank practice challenges.
+- [MoraXtreme](MoraXtreme/) – MoraXtreme contest problems.
+- [FunMath](FunMath/) – Recreational math puzzles.
+- [ProjectEuler](ProjectEuler/) – Project Euler problems.
+- [Theory](Theory/) – Notes on algorithmic theory.
+
+Happy coding!
